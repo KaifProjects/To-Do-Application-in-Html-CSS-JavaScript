@@ -18,7 +18,6 @@ This app allows users to add, check, delete, and clear tasks with localStorage s
 
 ## 📸 Screenshots
 ### Main Interface
-![To-Do App Screenshot]
 <img width="779" height="594" alt="demo" src="https://github.com/user-attachments/assets/26010c36-9e61-4480-9c7f-cae5cee0add7" />
 
 

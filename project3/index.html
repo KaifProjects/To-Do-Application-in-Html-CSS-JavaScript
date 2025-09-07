@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-do List</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="todo-app">
+      <h2>My To-Do List <img src="./images/icon.png" alt="icon"></h2>
+
+      <!-- Input Row -->
+      <div class="row">
+        <input type="text" id="input-text" placeholder="Add your task...">
+        <button onclick="addTask()">Add</button>
+      </div>
+
+      <!-- Task Counter -->
+      <div class="counter" id="counter">0 tasks (0 completed)</div>
+
+      <!-- Task List -->
+      <ul id="list-container"></ul>
+
+      <!-- Clear All -->
+      <div class="footer">
+        <button class="clear-btn" onclick="clearAll()">Clear All</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
